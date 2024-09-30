@@ -1358,7 +1358,7 @@ footer {
 @media (max-width: 668px) {
   /*  buy box  */
   .buy-box {
-    opacity: 0;
+    display: none;
   }
 
   /* head */
@@ -1368,7 +1368,7 @@ footer {
     position: relative;
   }
   .text-head {
-    opacity: 0;
+    display: none;
   }
   .head .logo img {
     opacity: 0;
@@ -1384,7 +1384,7 @@ footer {
     margin-left: 10%;
   }
   .head .icon-head {
-    opacity: 0;
+    display: none;
   }
 
   /* menu */
@@ -1458,7 +1458,7 @@ footer {
     background-color: rgb(255, 136, 0);
   }
   .li-search {
-    opacity: 0;
+    display: none;
   }
   .menu_item .home {
     color: white;
@@ -1509,7 +1509,20 @@ footer {
 
   /* Magazine foods  */
   .magazine-foods {
-    height: 4300px;
+    height: 5400px;
+  }
+  .magazine-foods .magazine2 {
+    height: 100%;
+  }
+  .magazine-foods .magazine-box1 {
+    height: 70%;
+  }
+  .magazine-foods .container-img {
+    border-radius: 10px;
+  }
+  .magazine-foods .magazine2 .container {
+    width: 100%;
+    border-radius: 10px;
   }
 
   /* gallery video  */
